@@ -1,0 +1,60 @@
+body,html{
+    padding:0;
+    margin:0;
+}
+
+header{
+    height:60px;
+    position:flex;
+    background-color:red;
+    width:100%;
+
+}
+
+.logo-wrapper {
+    position:absolute;
+    left:0;
+    right:0;
+}
+
+nav {
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+nav >ul{
+    display:flex;
+    list-style:none;
+    margin:0;
+}
+
+nav>li {
+    padding:0 16px;
+    line-height:60px;
+    
+}
+
+nav>li>a {
+    text-decoration:none;
+    color:white;
+}
+
+nav>li>a:hover{
+    opacity:0.8;
+    curser:pointer;
+}
+
+#root {
+    padding-top:60px;
+}
+.service{
+    padding:16px;
+    box-sizing:border-box;
+    margin:8px;
+    box-shadow: 3px 3px 3px 3px #999;
+}
+
+.service>h1{
+    color:crimson;
+}
